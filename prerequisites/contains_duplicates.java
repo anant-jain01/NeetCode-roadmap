@@ -3,6 +3,7 @@ package prerequisites;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 public class contains_duplicates {
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
@@ -30,7 +31,7 @@ public class contains_duplicates {
 
   //WAY 2
 
-  
+
   public static boolean hasDuplicate(int[] arr){
     Set<Integer> seen=new HashSet<>();
     for (int i : arr) {
